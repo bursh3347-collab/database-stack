@@ -1,67 +1,84 @@
+![Stars](https://img.shields.io/github/stars/bursh3347-collab/database-stack?style=flat-square)
+![License](https://img.shields.io/github/license/bursh3347-collab/database-stack?style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/bursh3347-collab/database-stack?style=flat-square)
+
+[English](README.md) | [中文](README_CN.md)
+
 # 🗄️ database-stack
 
 > ⭐ Maturity: **L1 Growing** — 7 projects analyzed, comparison complete, best practices started.
 
-Extracted best practices, architecture patterns, and deep analysis from 7 high-star database and ORM projects on GitHub.
+Best database tools and ORMs analyzed, compared, and scored using the **TEMC framework** (Technology · Ecosystem · Market Timing · Combinability). Deep architecture analysis and migration patterns from 7 high-star projects.
 
-## 📈 本分类飙升榜（最近更新：2026-04-15）
+Part of the [Open Source Knowledge Restructuring Project](https://github.com/bursh3347-collab).
 
-| 排名 | 项目 | 总Stars | 周增 | 趋势 |
-|------|------|---------|------|------|
-| 1 | Supabase | 100.9k | +800 | 🚀 |
-| 2 | Drizzle ORM | 33.9k | +500 | 🚀 |
-| 3 | Neon | 21.5k | +300 | ↑ |
-| 4 | Prisma | 45.8k | +200 | → |
-| 5 | TypeORM | 36.4k | +50 | → |
-| 6 | Vitess | 19.5k | +80 | → |
-| 7 | SQLAlchemy | 9.8k | +30 | → |
+## 📈 Trending This Week (Updated: 2026-04-15)
 
-> 🌟 Drizzle ORM增速最快，正在成为TypeScript ORM新标准。Neon势头强劲，Vercel官方合作加速。
+| Rank | Project | Stars | Weekly Δ | Trend |
+|------|---------|-------|----------|-------|
+| 1 | [Supabase](https://github.com/supabase/supabase) | 100.9k | +800 | 🚀 |
+| 2 | [Drizzle ORM](https://github.com/drizzle-team/drizzle-orm) | 33.9k | +500 | 🚀 |
+| 3 | [Neon](https://github.com/neondatabase/neon) | 21.5k | +300 | ↑ |
+| 4 | [Prisma](https://github.com/prisma/prisma) | 45.8k | +200 | → |
+| 5 | [TypeORM](https://github.com/typeorm/typeorm) | 36.4k | +50 | → |
+| 6 | [Vitess](https://github.com/vitessio/vitess) | 19.5k | +80 | → |
+| 7 | [SQLAlchemy](https://github.com/sqlalchemy/sqlalchemy) | 9.8k | +30 | → |
+
+> 🌟 Drizzle ORM is gaining fast — becoming the new TypeScript ORM standard. Neon picking up momentum with official Vercel partnership.
+
+## 📊 Project Rankings (by TEMC Score)
+
+| Rank | Project | Stars | TEMC | Language | Category |
+|------|---------|-------|------|----------|----------|
+| 1 | [Supabase](projects/supabase.md) | 100.9k | **92** | TypeScript | BaaS Platform |
+| 2 | [Drizzle ORM](projects/drizzle-orm.md) | 33.9k | **87** | TypeScript | ORM |
+| 3 | [Prisma](projects/prisma.md) | 45.8k | **85** | TypeScript | ORM |
+| 4 | [Neon](projects/neon.md) | 21.5k | **84** | Rust | Serverless DB |
+| 5 | [SQLAlchemy](projects/sqlalchemy.md) | ~9.8k | **74** | Python | ORM |
+| 6 | [TypeORM](projects/typeorm.md) | 36.4k | **68** | TypeScript | ORM |
+| 7 | [Vitess](projects/vitess.md) | ~19.5k | **65** | Go | MySQL Scaling |
+
+> **TEMC** = Technology (25%) + Ecosystem (20%) + Market Timing (30%) + Combinability (25%)
 
 ## 📋 What's Inside
 
-### Projects Analyzed (7)
-| Project | Stars | TEMC | Language | Category |
-|---------|-------|------|----------|----------|
-| [Supabase](projects/supabase.md) | 100.9k | **92** | TypeScript | BaaS Platform |
-| [Drizzle ORM](projects/drizzle-orm.md) | 33.9k | **87** | TypeScript | ORM |
-| [Prisma](projects/prisma.md) | 45.8k | **85** | TypeScript | ORM |
-| [Neon](projects/neon.md) | 21.5k | **84** | Rust | Serverless DB |
-| [SQLAlchemy](projects/sqlalchemy.md) | ~9.8k | **74** | Python | ORM |
-| [TypeORM](projects/typeorm.md) | 36.4k | **68** | TypeScript | ORM |
-| [Vitess](projects/vitess.md) | ~19.5k | **65** | Go | MySQL Scaling |
-
-### Comparison & Best Practices
 - [📊 ORM & Platform Comparison](comparison.md) — Side-by-side feature matrix
-- [🏗️ Schema Design](best-practices/schema-design.md) — Schema patterns from all 7 projects
-- [🔄 Migration Patterns](best-practices/migration-patterns.md) — Safe migration strategies
+- [🏗️ Schema Design Patterns](best-practices/schema-design.md) — Patterns distilled from all 7 projects
+- [🔄 Migration Strategies](best-practices/migration-patterns.md) — Safe migration workflows
 - [🗺️ Technology Roadmap](roadmap.md) — Trends & predictions for database tooling
 
-## 🎯 Quick Recommendation
+## 🏆 Solo Dev Verdict
 
 **For a TypeScript Micro SaaS (solo developer):**
-1. **Database**: Supabase (all-in-one BaaS) or Neon (if Vercel edge)
-2. **ORM**: Drizzle ORM (lightweight, type-safe, edge-ready)
-3. **Migrations**: Drizzle Kit (generate + push)
 
-## 🏗️ Repository Structure
+| Layer | Pick | Why |
+|-------|------|-----|
+| Database | **Supabase** | All-in-one BaaS — auth, storage, realtime included |
+| Alt DB | **Neon** | If you need Vercel edge or branching workflows |
+| ORM | **Drizzle ORM** | Lightweight, type-safe, edge-ready, fastest growing |
+| Migrations | **Drizzle Kit** | Generate + push, zero friction |
+
+## 📂 Structure
+
 ```
 database-stack/
-├── README.md              ← You are here
-├── projects/              ← Individual project analyses (TEMC scored)
+├── projects/              ← Individual project deep-dives (TEMC scored)
 ├── best-practices/        ← Cross-project patterns
 ├── code/                  ← Extractable code (coming soon)
 ├── comparison.md          ← Horizontal comparison tables
 ├── roadmap.md             ← Technology trends & predictions
-├── CONTRIBUTING.md        ← How to contribute
-└── SOURCES.md             ← All source links + licenses
+├── CONTRIBUTING.md
+├── SOURCES.md
+└── README.md
 ```
 
 ## 📝 How to Use
-1. Start with [comparison.md](comparison.md) to understand the landscape
-2. Read the project analysis for your chosen tool
-3. Apply patterns from best-practices/ in your project
-4. Check [roadmap.md](roadmap.md) for where the ecosystem is heading
+
+1. **Compare** — Start with [comparison.md](comparison.md) to understand the landscape
+2. **Deep-dive** — Read the analysis for your chosen tool in `projects/`
+3. **Apply** — Use patterns from `best-practices/` in your project
+4. **Stay current** — Check [roadmap.md](roadmap.md) for where the ecosystem is heading
 
 ## License
-This repository contains analysis and extracted patterns. Each referenced project has its own license — see [SOURCES.md](SOURCES.md).
+
+Analysis content: MIT. Each referenced project has its own license — see [SOURCES.md](SOURCES.md).
