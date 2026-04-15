@@ -5,13 +5,13 @@
 | Metric | Data |
 |--------|------|
 | GitHub | [supabase/supabase](https://github.com/supabase/supabase) |
-| Stars | 100,883 |
-| Forks | 12,082 |
+| Stars | 100,891 |
+| Forks | 12,085 |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Last Updated | 2026-04-15 |
 | Contributors | 1,200+ |
-| Open Issues | 972 |
+| Open Issues | 964 |
 
 ## TEMC Score
 
@@ -56,3 +56,6 @@ Supabase provides a complete backend-as-a-service built on Postgres. One dashboa
 - Edge Functions still maturing
 - Pricing can escalate with heavy usage
 - Some features lag behind Firebase (push notifications, analytics)
+
+## 天子点评
+天子基准栈核心，不可替代。Auth + RLS + pgvector 三位一体，一人公司后端首选。直接用，不犹豫。

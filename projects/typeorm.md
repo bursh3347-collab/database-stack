@@ -45,3 +45,6 @@ TypeORM is the NestJS-ecosystem default ORM, supporting both Active Record and D
 - Maintenance pace slowed significantly
 - Known memory leak issues in long-running processes
 - Community migration away accelerating
+
+## 天子点评
+正在被淘汰。新项目不推荐，除非已有 NestJS 存量代码。Stars 高但增长停滞，Drizzle/Prisma 全面碾压。

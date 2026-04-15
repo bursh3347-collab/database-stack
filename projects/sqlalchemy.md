@@ -47,3 +47,6 @@ SQLAlchemy is the reference implementation for ORM design. Its dual-layer archit
 - Steep learning curve
 - Verbose for simple operations
 - Stars count understates actual usage (pre-GitHub era project)
+
+## 天子点评
+Python ORM 天花板，学习 ORM 设计模式的最佳教材。天子 Python 项目可用，但 TypeScript 主栈用 Drizzle。

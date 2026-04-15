@@ -5,13 +5,13 @@
 | Metric | Data |
 |--------|------|
 | GitHub | [drizzle-team/drizzle-orm](https://github.com/drizzle-team/drizzle-orm) |
-| Stars | 33,868 |
+| Stars | 33,870 |
 | Forks | 1,339 |
 | License | Apache-2.0 |
 | Language | TypeScript |
 | Last Updated | 2026-04-15 |
 | Contributors | 400+ |
-| Open Issues | 1,704 |
+| Open Issues | 1,705 |
 
 ## TEMC Score
 
@@ -48,7 +48,10 @@ Drizzle provides SQL-level control with TypeScript type safety. Unlike Prisma's 
 
 ## Why It Might NOT Be Worth It
 - Younger ecosystem, fewer third-party tools/plugins
-- 1,704 open issues suggest growing pains
+- 1,705 open issues suggest growing pains
 - Less mature migration tooling compared to Prisma Migrate
 - Documentation gaps for advanced use cases
 - Rapid API changes between versions
+
+## 天子点评
+已替代 Prisma 成为天子首选 ORM。轻量 + Edge-ready + SQL-like，saas-starter 已集成。增速惊人，未来可期。

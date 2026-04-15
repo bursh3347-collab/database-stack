@@ -49,3 +49,6 @@ Vitess solves MySQL horizontal scaling — the exact problem YouTube had. Online
 - PlanetScale removed free tier
 - Go codebase, not TypeScript
 - Overkill — designed for YouTube-scale, not Micro SaaS
+
+## 天子点评
+YouTube 级基建，学习架构思想（Online DDL、分片）即可。一人公司用 Supabase 就够了，不需要这个级别。

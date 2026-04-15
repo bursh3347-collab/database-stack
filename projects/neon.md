@@ -5,11 +5,11 @@
 | Metric | Data |
 |--------|------|
 | GitHub | [neondatabase/neon](https://github.com/neondatabase/neon) |
-| Stars | ~15,000 |
-| Forks | ~450 |
+| Stars | 21,499 |
+| Forks | 926 |
 | License | Apache-2.0 |
 | Language | Rust |
-| Last Updated | 2026-04 (very active) |
+| Last Updated | 2026-04-15 |
 | Contributors | 200+ |
 | Funding | $174M+ (Series C) |
 
@@ -18,7 +18,7 @@
 | Dimension | Score | Reasoning |
 |-----------|-------|-----------|
 | T Tech | 90 | Storage-compute separation, copy-on-write branching, autoscaling, Rust core |
-| E Ecosystem | 78 | 15k stars, Vercel partnership, growing fast but smaller than Supabase community |
+| E Ecosystem | 78 | 21.5k stars, Vercel partnership, growing fast but smaller than Supabase community |
 | M Market | 85 | Serverless DB is hot, Vercel/Cloudflare integration, $174M+ funding |
 | C Combo | 80 | Excellent with Vercel + Drizzle/Prisma, but competes with Supabase in天子栈 |
 | **Overall** | **84** | T×0.25 + E×0.20 + M×0.30 + C×0.25 |
@@ -51,3 +51,6 @@ Neon reimagines Postgres for the serverless era. Database branching (like git br
 - Cold start latency for scale-to-zero
 - Vendor lock-in risk despite open source
 - Storage layer is custom, not standard Postgres
+
+## 天子点评
+技术精妙但与 Supabase 重叠。分支功能适合团队协作，一人公司暂不需要。留作 Supabase 的 Plan B。

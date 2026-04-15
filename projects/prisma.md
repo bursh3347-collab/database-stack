@@ -5,7 +5,7 @@
 | Metric | Data |
 |--------|------|
 | GitHub | [prisma/prisma](https://github.com/prisma/prisma) |
-| Stars | 45,761 |
+| Stars | 45,763 |
 | Forks | 2,175 |
 | License | Apache-2.0 |
 | Language | TypeScript |
@@ -53,3 +53,6 @@ Prisma eliminates the impedance mismatch between application code and database. 
 - Large bundle size for serverless/edge deployments
 - Complex queries often require raw SQL escape hatches
 - Vendor lock-in risk with Prisma Cloud/Accelerate
+
+## 天子点评
+生态最强但渐重。如果不需要 Edge 部署，仍是稳妥之选。但 Drizzle 正在全面超越，新项目建议直接用 Drizzle。
